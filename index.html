@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+
+	<link rel="stylesheet" id="jquery-ui-css"  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+<form>
+
+<div class="quote_row">
+	<label>Pickup Date:</label>
+	<input class="datepicker" id="datepicker" name="shipdate" type="text" /></div>	
+</div>
+<div class="quote_row">
+	<label>Pickup City OR Zip:</label>
+	<div id="pickup" class="city_dropdown">
+		<input  id="fcityorzip" name="fcityorzip" />
+	</div>
+</div>
+<div id="dropoff" class="quote_row">
+	<label>Dropoff City OR Zip:</label>
+<div class="city_dropdown">
+	<input id="tcityorzip" name="tcityorzip" />
+</div>
+</div>
+<div class="quote_row">
+	<div class="dottline">&nbsp;</div>
+</div>
+<div class="quote_row">
+	<div class="vehicle">Vehicle</div>
+</div>
+<div class="quote_row">
+<div class="year_dropdown">
+	<select id="veh_year" name="veh_year">
+		<option>Year</option>
+	</select>
+</div>
+<div class="year_dropdown">
+	<select id="veh_make" name="veh_make">
+		<option>Make</option>
+	</select>
+</div>
+<div class="year_dropdown">
+	<select id="veh_model" name="veh_model">
+		<option>Model</option>
+	</select>
+</div>
+</div>
+<div class="quote_row">
+<label style="width:50px">First Name:</label>
+<div class="name_box">
+	<input id="fname" name="fname" type="text" />
+</div>
+</div>
+<div class="quote_row">
+<label style="width:50px">Phone:</label>
+<div class="name_box">
+	<input id="dphone" name="dphone" type="text" />
+</div>
+</div>
+<div class="quote_row">
+<label style="width:50px">Email:</label>
+<div class="name_box">
+	<input id="email" name="email" type="text" />
+</div>
+</div>
+<div class="quote_row">
+<div class="name_box">
+	<input id="sbt_btn" name="submit" type="submit" />
+</div>
+</div>
+
+</form>
+
+
+<!---- my needed libraries ---->
+<script type="text/javascript" src="utils-testing.js"></script>
+</body>
+
+
+
+</html>
